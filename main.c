@@ -39,7 +39,7 @@ int main( )
 
     printf("PRIMA &p=%d\n", p);
     for(i = 0; i < 10; i++, p++) {
-        printf("*(p+i)=%d\n", *(p+i));
+        printf("*(p+i)=%d\n", *p);
     }
     printf("DOPO &p=%d\n", p);
     return 0;
